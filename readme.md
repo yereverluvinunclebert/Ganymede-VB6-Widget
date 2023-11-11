@@ -1,7 +1,7 @@
 # Ganymede-Widget-VB6
 The Steampunk Ganymede Desktop Widget, written in VB6 for Windows and ReactOS. Created for XP, Vista, Win7, 8, 10/11+, ReactOS as well as Linux or the Apple Mac's OS/X with Wine. This Ganymede Desktop Widget is an attractive and steamy VB6 widget for your desktop. This VB6 widget provides a simple moveable marble globe complete with rings
 
-![ganymede](https://github.com/yereverluvinunclebert/Ganymede-VB6-Widget/assets/2788342/48785ce5-8abb-4d40-a74e-22b190d90f2e)
+![ganymede](https://github.com/yereverluvinunclebert/Ganymede-VB6-Widget/assets/2788342/ac2ccec2-a53f-403f-9804-c50439e4539b)
 
 The others are the Uranus, Jupiter, Saturn and of course, 'God of War, the planet Mars. 
 Double-clicking on the planet will cause a personalised Windows application 
@@ -46,7 +46,7 @@ Why VB6? Well, with a 64 bit, modern-language improvement upgrade on the way in 
  is new VB6 widgets with more functionality and then hopefully, conversion of 
  each to RADBasic/TwinBasic for future-proofing and 64bit-ness. 
 
-![theWholeShebang](https://github.com/yereverluvinunclebert/Neptune-VB6-Widget/assets/2788342/cb874522-5592-4c43-8458-f831ebbb70da)
+![theWholeShebang](https://github.com/yereverluvinunclebert/Ganymede-VB6-Widget/assets/2788342/859b837a-5bb0-4326-94ad-35da40634106)
 
  This utility is one of a set of steampunk and dieselpunk widgets. That you can 
  find here on Deviantart: https://www.deviantart.com/yereverluvinuncleber/gallery
