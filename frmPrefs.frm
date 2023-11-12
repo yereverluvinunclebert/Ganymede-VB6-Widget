@@ -113,9 +113,9 @@ Begin VB.Form planetPrefs
          End
          Begin VB.ComboBox cmbDebug 
             Height          =   315
-            ItemData        =   "frmPrefs.frx":278D
+            ItemData        =   "frmPrefs.frx":279D
             Left            =   1530
-            List            =   "frmPrefs.frx":278F
+            List            =   "frmPrefs.frx":279F
             Style           =   2  'Dropdown List
             TabIndex        =   56
             ToolTipText     =   "Choose to set debug mode."
@@ -208,7 +208,7 @@ Begin VB.Form planetPrefs
          MultiLine       =   -1  'True
          ScrollBars      =   2  'Vertical
          TabIndex        =   117
-         Text            =   "frmPrefs.frx":2791
+         Text            =   "frmPrefs.frx":27A1
          Top             =   2205
          Width           =   8010
       End
@@ -625,7 +625,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgSounds 
          Height          =   600
          Left            =   160
-         Picture         =   "frmPrefs.frx":3748
+         Picture         =   "frmPrefs.frx":3758
          Stretch         =   -1  'True
          Top             =   225
          Width           =   600
@@ -633,7 +633,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgSoundsClicked 
          Height          =   600
          Left            =   160
-         Picture         =   "frmPrefs.frx":3D07
+         Picture         =   "frmPrefs.frx":3D17
          Stretch         =   -1  'True
          Top             =   225
          Width           =   600
@@ -686,7 +686,7 @@ Begin VB.Form planetPrefs
                Width           =   720
             End
             Begin VB.Label lblWindowLevel 
-               Caption         =   $"frmPrefs.frx":4146
+               Caption         =   $"frmPrefs.frx":4156
                Height          =   975
                Index           =   1
                Left            =   855
@@ -700,7 +700,7 @@ Begin VB.Form planetPrefs
             Left            =   1305
             Style           =   2  'Dropdown List
             TabIndex        =   17
-            ToolTipText     =   $"frmPrefs.frx":41E9
+            ToolTipText     =   $"frmPrefs.frx":41F9
             Top             =   0
             Width           =   3720
          End
@@ -870,7 +870,7 @@ Begin VB.Form planetPrefs
             Width           =   4035
          End
          Begin VB.Label lblFontsTab 
-            Caption         =   $"frmPrefs.frx":4276
+            Caption         =   $"frmPrefs.frx":4286
             Height          =   900
             Index           =   0
             Left            =   1665
@@ -947,9 +947,9 @@ Begin VB.Form planetPrefs
          End
          Begin VB.ComboBox cmbScrollWheelDirection 
             Height          =   315
-            ItemData        =   "frmPrefs.frx":4331
+            ItemData        =   "frmPrefs.frx":4341
             Left            =   1995
-            List            =   "frmPrefs.frx":4333
+            List            =   "frmPrefs.frx":4343
             Style           =   2  'Dropdown List
             TabIndex        =   90
             ToolTipText     =   "To change the direction of the mouse scroll wheel when resiziing the globe gauge."
@@ -1131,7 +1131,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgAbout 
          Height          =   600
          Left            =   160
-         Picture         =   "frmPrefs.frx":4335
+         Picture         =   "frmPrefs.frx":4345
          Stretch         =   -1  'True
          Top             =   225
          Width           =   600
@@ -1139,7 +1139,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgAboutClicked 
          Height          =   600
          Left            =   160
-         Picture         =   "frmPrefs.frx":48BD
+         Picture         =   "frmPrefs.frx":48CD
          Stretch         =   -1  'True
          Top             =   225
          Width           =   600
@@ -1164,7 +1164,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgConfig 
          Height          =   600
          Left            =   165
-         Picture         =   "frmPrefs.frx":4DA8
+         Picture         =   "frmPrefs.frx":4DB8
          Stretch         =   -1  'True
          Top             =   225
          Width           =   600
@@ -1172,7 +1172,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgConfigClicked 
          Height          =   600
          Left            =   165
-         Picture         =   "frmPrefs.frx":5387
+         Picture         =   "frmPrefs.frx":5397
          Stretch         =   -1  'True
          Top             =   225
          Width           =   600
@@ -1196,7 +1196,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgDevelopment 
          Height          =   600
          Left            =   160
-         Picture         =   "frmPrefs.frx":5882
+         Picture         =   "frmPrefs.frx":5892
          Stretch         =   -1  'True
          Top             =   225
          Width           =   600
@@ -1204,7 +1204,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgDevelopmentClicked 
          Height          =   600
          Left            =   160
-         Picture         =   "frmPrefs.frx":5E3A
+         Picture         =   "frmPrefs.frx":5E4A
          Stretch         =   -1  'True
          Top             =   225
          Width           =   600
@@ -1229,7 +1229,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgPosition 
          Height          =   600
          Left            =   160
-         Picture         =   "frmPrefs.frx":61C0
+         Picture         =   "frmPrefs.frx":61D0
          Stretch         =   -1  'True
          Top             =   225
          Width           =   600
@@ -1237,7 +1237,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgPositionClicked 
          Height          =   600
          Left            =   160
-         Picture         =   "frmPrefs.frx":6791
+         Picture         =   "frmPrefs.frx":67A1
          Stretch         =   -1  'True
          Top             =   225
          Width           =   600
@@ -1298,7 +1298,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgWindow 
          Height          =   600
          Left            =   160
-         Picture         =   "frmPrefs.frx":6B2F
+         Picture         =   "frmPrefs.frx":6B3F
          Stretch         =   -1  'True
          Top             =   225
          Width           =   600
@@ -1306,7 +1306,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgWindowClicked 
          Height          =   600
          Left            =   160
-         Picture         =   "frmPrefs.frx":6FF9
+         Picture         =   "frmPrefs.frx":7009
          Stretch         =   -1  'True
          Top             =   225
          Width           =   600
@@ -1330,7 +1330,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgFonts 
          Height          =   600
          Left            =   180
-         Picture         =   "frmPrefs.frx":73A5
+         Picture         =   "frmPrefs.frx":73B5
          Stretch         =   -1  'True
          Top             =   195
          Width           =   600
@@ -1338,7 +1338,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgFontsClicked 
          Height          =   600
          Left            =   180
-         Picture         =   "frmPrefs.frx":78FB
+         Picture         =   "frmPrefs.frx":790B
          Stretch         =   -1  'True
          Top             =   195
          Width           =   600
@@ -1362,7 +1362,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgGeneral 
          Height          =   600
          Left            =   165
-         Picture         =   "frmPrefs.frx":7D94
+         Picture         =   "frmPrefs.frx":7DA4
          Stretch         =   -1  'True
          Top             =   225
          Width           =   600
@@ -1370,7 +1370,7 @@ Begin VB.Form planetPrefs
       Begin VB.Image imgGeneralClicked 
          Height          =   600
          Left            =   165
-         Picture         =   "frmPrefs.frx":81F0
+         Picture         =   "frmPrefs.frx":8200
          Stretch         =   -1  'True
          Top             =   240
          Width           =   600
@@ -1433,9 +1433,9 @@ Begin VB.Form planetPrefs
          End
          Begin VB.ComboBox cmbWidgetLandscape 
             Height          =   315
-            ItemData        =   "frmPrefs.frx":84C3
+            ItemData        =   "frmPrefs.frx":84D3
             Left            =   2250
-            List            =   "frmPrefs.frx":84C5
+            List            =   "frmPrefs.frx":84D5
             Style           =   2  'Dropdown List
             TabIndex        =   75
             ToolTipText     =   "Choose the alarm sound."
@@ -1444,9 +1444,9 @@ Begin VB.Form planetPrefs
          End
          Begin VB.ComboBox cmbWidgetPortrait 
             Height          =   315
-            ItemData        =   "frmPrefs.frx":84C7
+            ItemData        =   "frmPrefs.frx":84D7
             Left            =   2250
-            List            =   "frmPrefs.frx":84C9
+            List            =   "frmPrefs.frx":84D9
             Style           =   2  'Dropdown List
             TabIndex        =   72
             ToolTipText     =   "Choose the alarm sound."
@@ -1455,9 +1455,9 @@ Begin VB.Form planetPrefs
          End
          Begin VB.ComboBox cmbWidgetPosition 
             Height          =   315
-            ItemData        =   "frmPrefs.frx":84CB
+            ItemData        =   "frmPrefs.frx":84DB
             Left            =   2265
-            List            =   "frmPrefs.frx":84CD
+            List            =   "frmPrefs.frx":84DD
             Style           =   2  'Dropdown List
             TabIndex        =   69
             ToolTipText     =   "Choose the alarm sound."
@@ -1466,9 +1466,9 @@ Begin VB.Form planetPrefs
          End
          Begin VB.ComboBox cmbAspectHidden 
             Height          =   315
-            ItemData        =   "frmPrefs.frx":84CF
+            ItemData        =   "frmPrefs.frx":84DF
             Left            =   2265
-            List            =   "frmPrefs.frx":84D1
+            List            =   "frmPrefs.frx":84E1
             Style           =   2  'Dropdown List
             TabIndex        =   66
             ToolTipText     =   "Choose the alarm sound."
@@ -1554,7 +1554,7 @@ Begin VB.Form planetPrefs
             Width           =   2205
          End
          Begin VB.Label lblPosition 
-            Caption         =   $"frmPrefs.frx":84D3
+            Caption         =   $"frmPrefs.frx":84E3
             Height          =   3120
             Index           =   12
             Left            =   5145
@@ -1574,7 +1574,7 @@ Begin VB.Form planetPrefs
             Width           =   2040
          End
          Begin VB.Label lblPosition 
-            Caption         =   $"frmPrefs.frx":86A5
+            Caption         =   $"frmPrefs.frx":86B5
             Height          =   705
             Index           =   10
             Left            =   2250
@@ -1594,13 +1594,13 @@ Begin VB.Form planetPrefs
             Width           =   2355
          End
          Begin VB.Label lblPosition 
-            Caption         =   $"frmPrefs.frx":8744
+            Caption         =   $"frmPrefs.frx":8754
             Height          =   3045
             Index           =   6
             Left            =   2265
             TabIndex        =   68
             Tag             =   "lblAlarmSoundDesc"
-            ToolTipText     =   $"frmPrefs.frx":88E0
+            ToolTipText     =   $"frmPrefs.frx":88F0
             Top             =   450
             Width           =   5175
          End
