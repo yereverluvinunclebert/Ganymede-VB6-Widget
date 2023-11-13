@@ -55,7 +55,7 @@ StartDialog=Yes
 FinishDialog=Yes
 
 [SPLASH_WINDOW]
-Bitmap_Pathname=E:\vb6\Ganymede VB6\Resources\images\Splash.bmp
+Bitmap_Pathname=E:\vb6\Ganymede-VB6-Widget\Resources\images\Splash.bmp
 Bitmap_Duration=2
 
 [SETUP_WINDOW]
@@ -110,40 +110,12 @@ BeforeUninstall=,,,1,2,1,
 [CREATE_SETUP]
 OutputFolder=E:\vb6\Ganymede VB6 ver. 1.0.0
 SetupFilename=Setup.exe
-SetupIconPathname=E:\vb6\Ganymede VB6\Resources\images\32x32x16.ico
+SetupIconPathname=E:\vb6\Ganymede-VB6-Widget\Resources\images\32x32x16.ico
 CreateSelfExtractedSetup=Yes
 CreatePasswordProtectedSetup=No
 Password=
 
 [APPLICATION_FILES]
-Folder=%AppDir%\BIN
-File=%AppDir%\BIN\DirectCOM.dll,.\BIN\DirectCOM.dll,17,0,128
-File=%AppDir%\BIN\vbRichClient5.dll,.\BIN\vbRichClient5.dll,17,2,128
-File=%AppDir%\BIN\vbWidgets.dll,.\BIN\vbWidgets.dll,17,2,128
-File=%AppDir%\BIN\vb_cairo_sqlite.dll,.\BIN\vb_cairo_sqlite.dll,17,0,128
-Folder=%AppDir%\help
-File=%AppDir%\help\about.png,.\help\about.png,17,0,128
-File=%AppDir%\help\desktop.jpg,.\help\desktop.jpg,17,0,128
-File=%AppDir%\help\ganymede.png,.\help\ganymede.png,17,0,128
-File=%AppDir%\help\help.html,.\help\help.html,17,0,128
-File=%AppDir%\help\help.jpg,.\help\help.jpg,17,0,128
-File=%AppDir%\help\Index.hhk,.\help\Index.hhk,17,0,128
-File=%AppDir%\help\Licence.jpg,.\help\Licence.jpg,17,0,128
-File=%AppDir%\help\mars.png,.\help\mars.png,17,0,128
-File=%AppDir%\help\menu01.png,.\help\menu01.png,17,0,128
-File=%AppDir%\help\menu02.png,.\help\menu02.png,17,0,128
-File=%AppDir%\help\neptune.png,.\help\neptune.png,17,0,128
-File=%AppDir%\help\prefs-about.png,.\help\prefs-about.png,17,0,128
-File=%AppDir%\help\prefs-config.png,.\help\prefs-config.png,17,0,128
-File=%AppDir%\help\prefs-development.png,.\help\prefs-development.png,17,0,128
-File=%AppDir%\help\prefs-fonts.png,.\help\prefs-fonts.png,17,0,128
-File=%AppDir%\help\prefs-general.png,.\help\prefs-general.png,17,0,128
-File=%AppDir%\help\prefs-position.png,.\help\prefs-position.png,17,0,128
-File=%AppDir%\help\prefs-sounds.png,.\help\prefs-sounds.png,17,0,128
-File=%AppDir%\help\prefs-window.png,.\help\prefs-window.png,17,0,128
-File=%AppDir%\help\sauron.png,.\help\sauron.png,17,0,128
-File=%AppDir%\help\theWholeShebang.jpg,.\help\theWholeShebang.jpg,17,0,128
-File=%AppDir%\help\TOC.hhc,.\help\TOC.hhc,17,0,128
 Folder=%AppDir%\Resources
 Folder=%AppDir%\Resources\images
 File=%AppDir%\Resources\images\128x128x32.ico,.\Resources\images\128x128x32.ico,17,0,128
@@ -216,7 +188,6 @@ File=%AppDir%\Resources\images\help.jpg,.\Resources\images\help.jpg,17,0,128
 File=%AppDir%\Resources\images\housekeeping-Icon-dark.jpg,.\Resources\images\housekeeping-Icon-dark.jpg,17,0,128
 File=%AppDir%\Resources\images\housekeeping-icon-light.jpg,.\Resources\images\housekeeping-icon-light.jpg,17,0,128
 File=%AppDir%\Resources\images\io.png,.\Resources\images\io.png,17,0,128
-File=%AppDir%\Resources\images\ioIcon.ico,.\Resources\images\ioIcon.ico,17,0,128
 File=%AppDir%\Resources\images\mini-panzergauge-icon.png,.\Resources\images\mini-panzergauge-icon.png,17,0,128
 File=%AppDir%\Resources\images\pennyred-icon-dark.jpg,.\Resources\images\pennyred-icon-dark.jpg,17,0,128
 File=%AppDir%\Resources\images\pennyred-icon-light.jpg,.\Resources\images\pennyred-icon-light.jpg,17,0,128
@@ -271,11 +242,40 @@ Folder=%AppDir%\Resources\txt
 File=%AppDir%\Resources\txt\about.txt,.\Resources\txt\about.txt,17,0,128
 File=%AppDir%\Resources\txt\licence.txt,.\Resources\txt\licence.txt,17,0,128
 File=%AppDir%\Resources\readme.txt,.\Resources\readme.txt,17,0,128
+Folder=%AppDir%\help
+File=%AppDir%\help\about.png,.\help\about.png,17,0,128
+File=%AppDir%\help\desktop.jpg,.\help\desktop.jpg,17,0,128
+File=%AppDir%\help\ganymede.png,.\help\ganymede.png,17,0,128
+File=%AppDir%\help\help.chm,.\help\help.chm,17,0,128
+File=%AppDir%\help\help.html,.\help\help.html,17,0,128
+File=%AppDir%\help\help.jpg,.\help\help.jpg,17,0,128
+File=%AppDir%\help\Index.hhk,.\help\Index.hhk,17,0,128
+File=%AppDir%\help\Licence.jpg,.\help\Licence.jpg,17,0,128
+File=%AppDir%\help\mars.png,.\help\mars.png,17,0,128
+File=%AppDir%\help\menu01.png,.\help\menu01.png,17,0,128
+File=%AppDir%\help\menu02.png,.\help\menu02.png,17,0,128
+File=%AppDir%\help\neptune.png,.\help\neptune.png,17,0,128
+File=%AppDir%\help\prefs-about.png,.\help\prefs-about.png,17,0,128
+File=%AppDir%\help\prefs-config.png,.\help\prefs-config.png,17,0,128
+File=%AppDir%\help\prefs-development.png,.\help\prefs-development.png,17,0,128
+File=%AppDir%\help\prefs-fonts.png,.\help\prefs-fonts.png,17,0,128
+File=%AppDir%\help\prefs-general.png,.\help\prefs-general.png,17,0,128
+File=%AppDir%\help\prefs-position.png,.\help\prefs-position.png,17,0,128
+File=%AppDir%\help\prefs-sounds.png,.\help\prefs-sounds.png,17,0,128
+File=%AppDir%\help\prefs-window.png,.\help\prefs-window.png,17,0,128
+File=%AppDir%\help\sauron.png,.\help\sauron.png,17,0,128
+File=%AppDir%\help\theWholeShebang.jpg,.\help\theWholeShebang.jpg,17,0,128
+File=%AppDir%\help\TOC.hhc,.\help\TOC.hhc,17,0,128
+Folder=%AppDir%\BIN
+File=%AppDir%\BIN\DirectCOM.dll,.\BIN\DirectCOM.dll,17,0,128
+File=%AppDir%\BIN\vbRichClient5.dll,.\BIN\vbRichClient5.dll,17,2,128
+File=%AppDir%\BIN\vbWidgets.dll,.\BIN\vbWidgets.dll,17,2,128
+File=%AppDir%\BIN\vb_cairo_sqlite.dll,.\BIN\vb_cairo_sqlite.dll,17,0,128
 File=%AppDir%\buglist.txt,.\buglist.txt,17,0,128
 File=%AppDir%\CCRSlider.ocx,.\CCRSlider.ocx,17,2,128
 File=%AppDir%\GPL LICENCE.TXT,.\GPL LICENCE.TXT,17,0,128
 File=%AppDir%\prefs.bat,.\prefs.bat,17,0,128
-File=%AppDir%\ganymede.png,.\Resources\images\ganymede.png,17,0,128
+File=%AppDir%\Ganymede.exe,.\Ganymede.exe,17,2,128
 
 [SHORTCUTS]
 
