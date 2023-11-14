@@ -95,7 +95,7 @@ Show_ViewReadme_Checked=Yes
 Show_RunApplication_CheckBox=Yes
 Show_RunApplication_Checked=Yes
 Readme_Pathname=
-Application_Pathname=%AppDir%\earth.exe
+Application_Pathname=%AppDir%\Ganymede.exe
 
 [EXTERNAL_TOOLS]
 RunBeforeInstall=No
@@ -276,6 +276,7 @@ File=%AppDir%\CCRSlider.ocx,.\CCRSlider.ocx,17,2,128
 File=%AppDir%\GPL LICENCE.TXT,.\GPL LICENCE.TXT,17,0,128
 File=%AppDir%\prefs.bat,.\prefs.bat,17,0,128
 File=%AppDir%\Ganymede.exe,.\Ganymede.exe,17,2,128
+File=%AppDir%\unhide.bat,.\unhide.bat,17,0,128
 
 [SHORTCUTS]
 
